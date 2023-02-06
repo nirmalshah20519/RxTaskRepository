@@ -1,0 +1,90 @@
+body{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.header{
+    padding: 0.5%;
+    background-color: rgb(134, 176, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    border-radius: 12px;
+    width: 99%;
+}
+
+.sec-1 img{
+    width: 100%;
+}
+
+.sec-1{
+    width:150px;
+    background-color: rgb(183, 183, 253);
+}
+
+.sec-2{
+    border-left: solid 3px black;
+    padding-left: 1.8%;
+    width: 100%;
+}
+
+.details{
+    margin-top: 1.5%;
+    /* padding: 0.75%; */
+    
+    border-radius: 12px;
+    
+}
+
+.bullet{
+    font-size: x-large;
+}
+
+.detail-text{
+    background-color: rgb(134, 176, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.75%;
+    margin-top: 1%;
+    width: 98.5%;
+    border-radius: 12px;
+}
+
+.detail-text .title {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.row{
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.row .detail-text{
+    margin-right: 5%;
+}
+
+.experience{
+    float: right;
+}
+
+
+.content .video{
+    width: 100%;
+    
+}
+
+video{
+    border: 5px solid rgb(54, 54, 54);
+}
+
+.video div{
+    width: 100%;
+    text-align: center;
+    
+}

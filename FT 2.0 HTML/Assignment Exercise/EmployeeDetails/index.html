@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Employee Details</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">
+            Employee Registration Form
+        </h1>
+    </header>
+
+    <section class="content">
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="Name">Name</label></td>
+                    <td><input type="text" placeholder="Enter Your Name" required pattern="[A-Za-z]+"></td>
+                </tr>
+                <tr>
+                    <td><label for="Age">Age</label></td>
+                    <td><input type="text" placeholder="Enter Your Age" required pattern="[0-9]+"></td>
+                </tr>
+                <tr>
+                    <td><label for="Age">Gender</label></td>
+                    <td>
+                        <input type="radio" id="male" value="Male" name="gender"> Male </input>
+                        <input type="radio" id="female" value="Female" name="gender"> Female </input> 
+                    </td>                    
+                </tr>
+                <tr>
+                    <td><label for="Designation">Designation</label></td>
+                    <td><select name="designation" id="designation" required>
+                        <option value="select">-Select-</option>
+                        <option value="trainee">Trainee</option>
+                        <option value="jr-dvp">Junior Developer</option>
+                        <option value="sr-dvp">Senior Developer</option>
+                        <option value="pj-mjr">Project Manager</option>
+                        <option value="sr-pj-mjr">Senior Project Manager</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Salary">Salary</label></td>
+                    <td><input type="text" placeholder="Enter Your Salary" required pattern="[0-9]+"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" placeholder="Enter Your City" required pattern="[A-Za-z]+"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" placeholder="Enter Your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
+                </tr>
+                <tr>
+                    <td><label for="DOJ">Date of Joining</label></td>
+                    <td><input type="date" placeholder="Enter Date of Joining" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Contact No.</label></td>
+                    <td><input type="text" placeholder="Enter Your Contact No." required pattern="[0-9]{10}"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Clear Response" id="reset"></td>
+                    <td><input type="submit" value="Submit" id="submit"></td>
+                </tr>
+            </table>
+
+            
+        </form>
+    </section>
+</body>
+</html>
